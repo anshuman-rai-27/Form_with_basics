@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="container_">
+        <div class="card_">
+            <div class="content_">
+                <form class="form needs-validation " novalidate>
+                    
+                    <label for="gross-income" class="flex">Enter gross annual income
+                        <span class="question-mark" data-target="gross-income">?</span>
+                        <div class="error_g tooltip_e"></div>
+                    </label>
+                    
+                
+                    <div class="input-container">
+                        <input type="text" id="gross-income" class="form-control" name="gross-income"
+                            placeholder="Enter gross annual income" required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-exclamation-circle exclaim" id="e_g" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                        </svg>
+                    </div>
+
+                    <label for="extra-income">Enter extra income
+                        <span class="question-mark" data-target="extra-income">?</span>
+                        <div class="error_e tooltip_e"></div>
+                    </label>
+                    <div class="input-container">
+                        <input type="text" id="extra-income" class="form-control" name="extra-income"
+                            placeholder="Enter extra income from other sources" required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-exclamation-circle exclaim" id="e_e" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                        </svg>
+                    </div>
+                    <label for="age-group">Enter age group
+                        <span class="question-mark" data-target="age-group">?</span>
+                        
+                    </label>
+
+                    <select class="" id="age-group" name="age-group" class="form-select" required>
+                        <!-- <option selected disabled value="">Choose...</option> -->
+                        <option selected disabled value="40">&lt;40</option>
+                        <option value="40-60">&gE;40& &lt; 60</option>
+                        <option value="60">&gE;60</option>
+                    </select>
+
+                    <label for="deductions">Enter total applicable deductions
+                        <span class="question-mark" data-target="deductions">?</span>
+                        <div class="error_d tooltip_e"></div>
+                    </label>
+                    <div class="input-container">
+                        <input type="text" id="deductions" class="form-control" name="deductions"
+                            placeholder="Add total applicable deductions" required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-exclamation-circle exclaim" id="e_d" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                        </svg>
+
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="result">
+            
+            <h1>Your overall income will be</h1>
+            <h2 id="income"></h2>
+            <p>after tax deductions</p>
+            <button class="btn" onclick="this.parentElement.style.display='none';">Close</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
