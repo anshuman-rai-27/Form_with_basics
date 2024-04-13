@@ -5,7 +5,7 @@ Form View
 ![image](https://github.com/anshuman-rai-27/Form_with_basics/assets/118046194/2cdd705a-186e-41c7-9ec8-1ed3d0b4547e)
 
 
-Firm Info button
+Form Info button
 
 ![image](https://github.com/anshuman-rai-27/Form_with_basics/assets/118046194/7d9c1031-66ae-47ae-bd98-3cf8fe417f93)
 
