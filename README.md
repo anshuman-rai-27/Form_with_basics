@@ -14,12 +14,6 @@ Form View
 
 
 
-![image](https://github.com/anshuman-rai-27/Form_with_basics/assets/118046194/72d3aa71-da00-4043-abd1-db4cf40e7ad3)
-
-
-
-![image](https://github.com/anshuman-rai-27/Form_with_basics/assets/118046194/c66b804b-81d3-4468-98fa-7688248f294d)
-
 result
 
 
