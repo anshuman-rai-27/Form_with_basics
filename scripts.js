@@ -161,6 +161,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const e_d = document.getElementById('e_d');
         const ageGroupSelect = document.getElementById('age-group');
 
+        e_g.style.display = "none";
+        e_e.style.display = "none";
+        e_d.style.display = "none";
+
 
         let isValid = true;
 
