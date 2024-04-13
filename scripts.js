@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
             e_g.style.display = "flex";
             error_g.textContent=""
-            error_g.textContent="Please input nuumbers only"
+            error_g.textContent="Please input numbers only"
 
         }
 
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
             e_e.style.display = "flex";
             error_e.textContent=""
-            error_e.textContent="Please input nuumbers only"
+            error_e.textContent="Please input numbers only"
 
         }
 
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
             e_d.style.display = "flex";
             error_d.textContent=""
-            error_d.textContent="Please input nuumbers only"
+            error_d.textContent="Please input numbers only"
 
         }
 
